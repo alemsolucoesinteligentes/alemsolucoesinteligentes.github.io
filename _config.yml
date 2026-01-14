@@ -1,3 +1,35 @@
 title: "Alem Soluções Inteligentes"
 description: "Empresa de tecnologia orientada a dados: ciência de dados, IA, modelagem matemática e engenharia de dados."
-theme: jekyll-theme-minimal
+url: "https://alemsolucoes.com.br"
+baseurl: ""
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# Exclude from build
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+
+# Collections (optional)
+collections:
+  services:
+    output: true
+    permalink: /servicos/:title/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+
+# Plugins
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
