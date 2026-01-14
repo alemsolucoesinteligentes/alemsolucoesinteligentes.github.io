@@ -120,6 +120,12 @@ a:hover {
   gap: 10px;
 }
 
+.brand-logo {
+  height: 24px;
+  width: auto;
+  object-fit: contain;
+}
+
 .brand::before {
   content: '';
   width: 36px;
