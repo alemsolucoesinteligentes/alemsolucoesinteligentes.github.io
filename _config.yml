@@ -15,12 +15,6 @@ exclude:
   - node_modules
   - vendor
 
-# Collections (optional)
-collections:
-  services:
-    output: true
-    permalink: /servicos/:title/
-
 # Defaults
 defaults:
   - scope:
